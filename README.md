@@ -25,4 +25,16 @@ Iris dataset from scikit-learn, containing 150 samples.
 3. Compare the accuracy results.
 
 ## Results
-The observed test accuracy was 1.0 for both tested split seeds.# iris-reproducible-experiment
+
+Experiment 1:
+- Test size: 0.25
+- Split random state: 42
+- Accuracy: 1.0 (100%)
+
+Experiment 2:
+- Test size: 0.25
+- Split random state: 7
+- Accuracy: 0.8947 (89.47%)
+
+Re-running Experiment 2 with the same settings
+produced the same accuracy.
